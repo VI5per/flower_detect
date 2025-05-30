@@ -6,7 +6,7 @@ import os
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='flower_07042022.pt')
 
 # Path gambar
-image_path = r'C:\Users\PATRI\Documents\PBO\flower_detect\manfaat-bunga-lotus-bunga-seroja-wallpaper-preview.jpg'
+image_path = r'' #(ganti sesuai tempat directori file\nama_gambar_yg_dideteksi.jpg)
 
 # Periksa apakah gambar tersedia
 if not os.path.exists(image_path):
